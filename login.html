@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#00AEEF" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>登录 · SpeedAI — 本地预览 v4</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="preview-banner"><b>PREVIEW</b><span data-i18n="banner">本地预览 · 不提交表单 · 现网未改 · payment_enabled 未动</span></div>
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img class="logo-mark" src="assets/logo.svg" alt="SpeedAI" />
+        <span class="logo-text">
+          <span class="logo-name">SpeedAI</span>
+          <span class="logo-tag">API Midway</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#features" class="nav-link" data-i18n="navFeatures">功能特性</a>
+        <a href="index.html#pricing" class="nav-link" data-i18n="navPricing">定价</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="language">
+          <button type="button" data-lang="zh" class="is-on">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <a href="login.html" class="btn btn-ghost" style="font-weight:600;color:var(--text-primary)" data-i18n="login">登录</a>
+        <a href="register.html" class="btn btn-primary" data-i18n="register">免费注册</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="auth-main">
+    <div class="auth-wrap">
+      <aside class="auth-aside">
+        <h1 class="display-lg" data-i18n="asideLogin">用现有账户继续</h1>
+        <p class="body-md" data-i18n="asideLoginP">登录后进入现有控制台。充值与核销约定不变。</p>
+        <div class="auth-steps">
+          <div class="auth-step"><div class="num">01</div><strong>SpeedAI</strong><span>API Midway</span></div>
+          <div class="auth-step"><div class="num">02</div><strong data-i18n="stop2">拿到密钥</strong><span data-i18n="stop2d">一把钥匙，折扣价调用</span></div>
+          <div class="auth-step"><div class="num">03</div><strong data-i18n="stop3">发第一笔请求</strong><span data-i18n="stop3d">少等待，按现网流程充值</span></div>
+        </div>
+      </aside>
+      <section class="auth-card">
+        <h2 data-i18n="loginTitle">登录 SpeedAI</h2>
+        <p class="auth-lead" data-i18n="loginLead">用现有账户继续。</p>
+        <form data-preview-form action="#" method="post" novalidate>
+          <div class="field">
+            <label for="email" data-i18n="email">邮箱</label>
+            <input id="email" name="email" type="email" autocomplete="username" data-i18n-placeholder="emailPh" placeholder="请输入邮箱" />
+          </div>
+          <div class="field">
+            <label for="password" data-i18n="password">密码</label>
+            <div class="pw-wrap">
+              <input id="password" name="password" type="password" autocomplete="current-password" data-i18n-placeholder="passwordPh" placeholder="请输入密码" />
+              <button type="button" class="pw-toggle" data-for="password" data-i18n="show" data-i18n-aria="show">显示</button>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit" style="width:100%" data-i18n="signIn">登录</button>
+          <p class="toast" data-i18n="toast">本地预览：表单不会提交到 speedai.store。</p>
+        </form>
+        <p class="auth-foot"><span data-i18n="noAccount">还没有账户？</span><a href="register.html" data-i18n="signUp">注册</a></p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid-simple">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img class="logo-mark" src="assets/logo.svg" alt="SpeedAI" />
+            <span class="logo-text">
+              <span class="logo-name">SpeedAI</span>
+              <span class="logo-tag">API Midway</span>
+            </span>
+          </a>
+          <p class="footer-description" data-i18n="footerDesc">SpeedAI · API Midway。一把密钥接入多家模型，订阅转 API，按量付费。</p>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footerProduct">产品</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link" data-i18n="footerHome">首页</a></li>
+            <li><a href="index.html#features" class="footer-link" data-i18n="navFeatures">功能特性</a></li>
+            <li><a href="index.html#pricing" class="footer-link" data-i18n="navPricing">定价</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footerAccount">账户</h4>
+          <ul class="footer-links">
+            <li><a href="login.html" class="footer-link" data-i18n="login">登录</a></li>
+            <li><a href="register.html" class="footer-link" data-i18n="register">免费注册</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright" data-i18n="footerCopy">© 2026 SpeedAI. 保留所有权利。</p>
+        <p class="footer-copyright" data-i18n="footerNote">本页为本地视觉预览，不是现网页面。</p>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/preview.js"></script>
+</body>
+</html>

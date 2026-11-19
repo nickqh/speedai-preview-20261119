@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#00AEEF" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>SpeedAI · API Midway — 本地预览 v4</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="preview-banner"><b>PREVIEW</b><span data-i18n="banner">本地预览 · 不提交表单 · 现网未改 · payment_enabled 未动</span></div>
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img class="logo-mark" src="assets/logo.svg" alt="SpeedAI" />
+        <span class="logo-text">
+          <span class="logo-name">SpeedAI</span>
+          <span class="logo-tag">API Midway</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#features" class="nav-link" data-i18n="navFeatures">功能特性</a>
+        <a href="#pricing" class="nav-link" data-i18n="navPricing">定价</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="language">
+          <button type="button" data-lang="zh" class="is-on">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <a href="login.html" class="btn btn-ghost" data-i18n="login">登录</a>
+        <a href="register.html" class="btn btn-primary" data-i18n="register">免费注册</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-badge">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M8 2L10.5 7L16 7.5L11.5 11.5L13 16L8 13L3 16L4.5 11.5L0 7.5L5.5 7L8 2Z" fill="currentColor"/>
+        </svg>
+        <span data-i18n="badge">订阅转 API，按量付费</span>
+      </div>
+      <h1 class="display-xl hero-title">
+        <span data-i18n="heroTitleLead">主流模型，</span><span class="highlight" data-i18n="heroTitleHighlight">折扣调用</span>
+      </h1>
+      <p class="body-lg hero-description" data-i18n="heroSub">一把密钥接入多家模型。订阅转 API，按量付费。</p>
+      <div class="hero-features">
+        <div class="hero-feature">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg>
+          <span data-i18n="check1">OpenAI 标准接口</span>
+        </div>
+        <div class="hero-feature">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg>
+          <span data-i18n="check2">一把密钥多家模型</span>
+        </div>
+        <div class="hero-feature">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg>
+          <span data-i18n="check3">按量付费</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="register.html" class="btn btn-primary" data-i18n="register">免费注册</a>
+        <a href="login.html" class="btn btn-ghost" data-i18n="login">登录</a>
+        <a href="#pricing" class="btn btn-secondary" data-i18n="viewPricing">查看定价</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="logo-carousel" aria-label="models">
+    <div class="logo-track">
+        <div class="logo-item"><span class="model-name">Claude</span></div>
+        <div class="logo-item"><span class="model-name">GPT</span></div>
+        <div class="logo-item"><span class="model-name">Gemini</span></div>
+        <div class="logo-item"><span class="model-name">Antigravity</span></div>
+        <div class="logo-item"><span class="model-name">Claude</span></div>
+        <div class="logo-item"><span class="model-name">GPT</span></div>
+        <div class="logo-item"><span class="model-name">Gemini</span></div>
+        <div class="logo-item"><span class="model-name">Antigravity</span></div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stats-container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value qual" data-i18n="chip1">模型折扣</div>
+          <div class="stat-label" data-i18n="chip1d">折扣价调用，档位以下单页为准</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value qual" data-i18n="chip2">快速响应</div>
+          <div class="stat-label" data-i18n="chip2d">少等待、快返回</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value qual" data-i18n="chip3">一把密钥</div>
+          <div class="stat-label" data-i18n="chip3d">同一把密钥调用多家模型</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value qual" data-i18n="chip4">按量付费</div>
+          <div class="stat-label" data-i18n="chip4d">充值后按用量计费</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="features-container">
+      <div class="section-header">
+        <h2 class="display-lg section-title" data-i18n="featTitle">模型折扣，少等待、快返回。</h2>
+        <p class="body-lg section-description" data-i18n="featSub">先把能兑现的卖点讲清楚。具体档位以下单页为准。</p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3 class="feature-title" data-i18n="f1t">模型折扣</h3>
+          <p class="feature-description" data-i18n="f1d">Claude、GPT、Gemini、Antigravity，按折扣价调用。具体档位以下单页为准。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3 class="feature-title" data-i18n="f2t">快速响应</h3>
+          <p class="feature-description" data-i18n="f2d">少等待、快返回。会话保持，不用来回切账号。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3 class="feature-title" data-i18n="f3t">一把密钥多家模型</h3>
+          <p class="feature-description" data-i18n="f3d">同一把 API 密钥调用已接入的模型，不用分别申请。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h3 class="feature-title" data-i18n="f4t">标准接口</h3>
+          <p class="feature-description" data-i18n="f4d">OpenAI 标准接口。订阅转成 API，按量付费。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="path">
+    <div class="features-container">
+      <div class="section-header">
+        <h2 class="display-lg section-title" data-i18n="pathTitle">请求怎么走</h2>
+        <p class="body-lg section-description" data-i18n="pathSub">从你的应用到上游模型，走 SpeedAI Midway 这一条入口。</p>
+      </div>
+      <div class="path-grid">
+        <div class="path-card"><div class="path-num">01</div><h3 data-i18n="s1t">你的应用</h3><p data-i18n="s1d">一把密钥，标准接口</p></div>
+        <div class="path-card"><div class="path-num">02</div><h3 data-i18n="s2t">SpeedAI Midway</h3><p data-i18n="s2d">鉴权、分发、会话保持</p></div>
+        <div class="path-card"><div class="path-num">03</div><h3 data-i18n="s3t">上游模型池</h3><p data-i18n="s3d">按折扣价调度主流模型</p></div>
+        <div class="path-card"><div class="path-num">04</div><h3 data-i18n="s4t">稳定返回</h3><p data-i18n="s4d">少等待，用量可查</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="pricing-container">
+      <div class="section-header">
+        <h2 class="display-lg section-title" data-i18n="priceTitle">按量付费</h2>
+        <p class="body-lg section-description" data-i18n="priceSub">没有月套餐档位。充值后按用量计费，用多少付多少。</p>
+      </div>
+      <div class="pricing-grid pricing-grid-single">
+        <div class="pricing-card featured">
+          <div class="pricing-badge" data-i18n="priceBadge">现网方案</div>
+          <div class="pricing-header">
+            <h3 class="pricing-name" data-i18n="priceName">按量付费</h3>
+            <div class="pricing-price qual" data-i18n="priceValue">按用量计费</div>
+          </div>
+          <ul class="pricing-features">
+            <li class="pricing-feature">          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg><span data-i18n="pf1">充值后按用量计费，用多少付多少</span></li>
+            <li class="pricing-feature">          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg><span data-i18n="pf2">折扣价调用 Claude、GPT、Gemini、Antigravity</span></li>
+            <li class="pricing-feature">          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg><span data-i18n="pf3">一把密钥接入多家模型</span></li>
+            <li class="pricing-feature">          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg><span data-i18n="pf4">具体档位以下单页为准</span></li>
+            <li class="pricing-feature">          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="currentColor"/>
+          </svg><span data-i18n="pf5">充值与核销走现网约定</span></li>
+          </ul>
+          <a href="register.html" class="btn btn-primary" style="width: 100%;" data-i18n="priceCta">免费注册</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="cta-container">
+      <h2 class="display-lg cta-title" data-i18n="ctaTitle">先注册，按折扣价发第一笔请求。</h2>
+      <p class="body-lg cta-description" data-i18n="ctaSub">开通账户后即可拿到密钥。充值与核销仍走现网约定。</p>
+      <div class="hero-cta">
+        <a href="register.html" class="btn btn-primary" data-i18n="register">免费注册</a>
+        <a href="login.html" class="btn btn-secondary" data-i18n="login">登录</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid-simple">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img class="logo-mark" src="assets/logo.svg" alt="SpeedAI" />
+            <span class="logo-text">
+              <span class="logo-name">SpeedAI</span>
+              <span class="logo-tag">API Midway</span>
+            </span>
+          </a>
+          <p class="footer-description" data-i18n="footerDesc">SpeedAI · API Midway。一把密钥接入多家模型，订阅转 API，按量付费。</p>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footerProduct">产品</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link" data-i18n="footerHome">首页</a></li>
+            <li><a href="#features" class="footer-link" data-i18n="navFeatures">功能特性</a></li>
+            <li><a href="#pricing" class="footer-link" data-i18n="navPricing">定价</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footerAccount">账户</h4>
+          <ul class="footer-links">
+            <li><a href="login.html" class="footer-link" data-i18n="login">登录</a></li>
+            <li><a href="register.html" class="footer-link" data-i18n="register">免费注册</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright" data-i18n="footerCopy">© 2026 SpeedAI. 保留所有权利。</p>
+        <p class="footer-copyright" data-i18n="footerNote">本页为本地视觉预览，不是现网页面。</p>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/preview.js"></script>
+</body>
+</html>
